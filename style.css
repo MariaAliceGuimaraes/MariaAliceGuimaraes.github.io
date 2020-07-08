@@ -52,18 +52,22 @@
 
     .picture-box {
         float: left;
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 25%;
+        padding: 15px;
     }
 
     .paragrafo-sobre-mim {
         float: right;
-        margin-left: 10px;
-        margin-right: 10px;
+        padding: 15px;
     }
 
     a {
         text-decoration:none;
         color: white;
+    }
+
+    .habilidades-container {
+        width: 30%;
+        display: inline-block;
+        text-align: left;
+        margin: 20px;
     }

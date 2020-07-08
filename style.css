@@ -50,6 +50,19 @@
         border-radius: 100%;
     }
 
+    .picture-box {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 25%;
+    }
+
+    .paragrafo-sobre-mim {
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     a {
         text-decoration:none;
         color: white;

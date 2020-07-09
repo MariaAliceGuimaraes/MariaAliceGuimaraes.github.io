@@ -11,17 +11,11 @@
     .header {
         background-image: url("https://img2.goodfon.com/wallpaper/nbig/0/dc/matrica-chernyy-fon-shifr-kod.jpg");
         background-size: cover;
-        background-position: 50% 100%;
+        background-position: 50% 95%;
         padding: 50px;
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
     }
-
-    .paragrafos-portfolio {
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-    }
-
 
     .lista-impar {
         font-family: "Raleway", sans-serif;
@@ -88,6 +82,11 @@
         height: 300px;
     }
 
+    .paragrafos {
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+    }
+    
     .paragrafo-sobre-mim {
         float: right;
         position: relative;
@@ -96,6 +95,12 @@
         width: 75%;
         height: 300px;
         line-height: 20px;
+    }
+
+    .paragrafos-portfolio {
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        margin-left: 40px;
     }
 
     a {
@@ -126,7 +131,25 @@
     }
 
     .picture-portfolio {
-        max-width: 300px;
-        margin: 5px;
+        max-width: 30%;
+        display: inline-block;
+        margin: 5px;  
     }
 
+    .galery {
+        margin: 40px;
+        width: 100%;
+    }
+
+    .redes-sociais {
+        width: 3%;
+        display: inline-block; 
+        clear: both;
+        margin: 4px;
+    }
+
+    .redes-sociais-container {
+        margin: 40px;
+        width: 100%;
+
+    }

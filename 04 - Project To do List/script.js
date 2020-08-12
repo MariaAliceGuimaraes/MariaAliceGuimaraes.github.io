@@ -3,7 +3,6 @@
 
 function addButton () {
 
-
   let orderedList = document.getElementById("lista-tarefas");
 
 
@@ -148,26 +147,7 @@ for (let item = 0; item < listaDeTarefas.length; item += 1) {
 
 
 
-window.onload=function(){
 
-
-for (let i = 0; i < (localStorage.length / 2); i += 1) {
-
-
-  let localStorageList = document.createElement('li');
-
-
-  localStorageList.innerText = localStorage.getItem(i);
-
-
-  localStorageList.className = localStorage.getItem(localStorageList.innerText);
-
-
-  list.appendChild(localStorageList);
-
-
-}
-}
 
 
 //upButton
@@ -216,18 +196,36 @@ let tasks = listaDeTarefas.childNodes;
 
 //botao remove selecionado
 
-
 let removeSelecionado = document.getElementById("remover-selecionado");
-
 
 removeSelecionado.addEventListener('click', function () {
 
+  let tasks = listaDeTarefas.childNodes;
 
-let tasks = listaDeTarefas.childNodes;
-
-
-for (let i = 0; i < tasks.length; i += 1) {
-  if (tasks[i].style.backgroundColor === 'rgb(128, 128, 128)') {
-    list.removeChild(tasks[i]);
+  for (let i = 0; i < tasks.length; i += 1) {
+    if (tasks[i].style.backgroundColor === 'rgb(128, 128, 128)') {
+      list.removeChild(tasks[i]);
+    }
   }
-};
+});
+
+window.onload=function(){
+
+
+  for (let i = 0; i < (localStorage.length / 2); i += 1) {
+  
+  
+    let localStorageList = document.createElement('li');
+  
+  
+    localStorageList.innerText = localStorage.getItem(i);
+  
+  
+    localStorageList.className = localStorage.getItem(localStorageList.innerText);
+  
+  
+    list.appendChild(localStorageList);
+  
+  
+  }
+}

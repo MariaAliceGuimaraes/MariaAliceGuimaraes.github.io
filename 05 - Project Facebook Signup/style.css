@@ -1,0 +1,400 @@
+@media screen and (min-width: 850px) {
+  
+  html {
+  min-height: 100%;
+  }
+
+    body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(white, rgb(174, 191, 223));
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: rgba(0, 0, 0, 0.82);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: block;
+  }
+
+  .top-bar {
+    background-color: rgb(66, 103, 178);
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-image: linear-gradient(rgb(76, 108, 172), rgb(49, 81, 145));
+    border-bottom: 1px solid rgb(44, 44, 44);
+    align-items: center;
+    padding-bottom: 0px;
+  }
+
+  #logo-container {
+    height: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .facebook-logo {
+    height: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .facebook-login {
+    display: flex;
+  }
+
+  .form-group {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 8px;
+  }
+
+  .form-control {
+    color: white;
+    height: 100%;
+    align-self: center;
+  }
+
+  #user-email-phone {
+    align-items: center;
+    height: 15px;
+    margin-top: 0px;
+  }
+
+  #user-password {
+    align-items: center;
+    height: 15px;
+    margin-top: 0px;
+  }
+
+  #button-login {
+    background-color: rgb(81, 118, 192);
+    border: 1px solid rgba(6, 55, 128, 0.8);
+    color: white;
+    font-weight: 600;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+  }
+
+  #esqueceu-conta {
+    font-size: 75%;;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .left-content {
+    width: 60%;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 10%;
+  }
+
+  #facebook-slogan {
+    color: rgba(28, 28, 92, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 800;
+    line-height: 28px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+
+  #facebook-networking {
+    width: 85%;
+  }
+
+  .right-content {
+    width: 40%;
+    margin-right: 8%;
+  }
+
+  #sign-up{
+    width: 100%;
+  }
+
+  .name-input {
+    display: flex;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  #firstname {
+    width: 100%;
+    border: 1px solid rgb(193, 193, 209);
+    border-radius: 5px;
+    font-size: 1.2em;
+    height: 34px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+
+  #lastname {
+    width: 100%;
+    border: 1px solid rgb(193, 193, 209);
+    border-radius: 5px;
+    font-size: 1.2em;
+    height: 34px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+
+  #birthdate {
+    width: 100%;
+    border: 1px solid rgb(193, 193, 209);
+    border-radius: 5px;
+    font-size: 1.2em;
+    height: 34px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+
+  input[type=radio] {
+      margin: 4px;
+      width: 15px;
+  }
+
+  #other-option input{
+    width: 100%;
+    border: 1px solid rgb(193, 193, 209);
+    border-radius: 5px;
+    font-size: 1.2em;
+    height: 34px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+
+  .input-large {
+    width: 100%;
+    border: 1px solid rgb(193, 193, 209);
+    border-radius: 5px;
+    font-size: 1.2em;
+    height: 34px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    justify-content: flex-start;
+  }
+
+  .genderButtons {
+    display: flex;
+    width: 100%;
+  }
+
+  .gender-section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  #facebook-register {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    border: 1px solid;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px #a4e388;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 126%;
+    width: 100%;
+    padding: 7px 20px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  #esqueceu-conta-mobile {
+    display: none;
+  }
+
+  #button-new-account {
+    display: none;
+  }
+
+  #ou {
+    display: none;
+  }
+  
+  #line {
+    display: none;
+  }
+
+  #line-ou-line {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+
+  .main-content {
+    display: none;
+  }
+
+  img {
+    width: 60%;
+    margin-bottom: 5%;
+  }
+
+  label {
+    display: none;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    margin: 0;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-image: none;
+    align-items: center;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+
+  .facebook-login {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  input {
+    background-color : #f5f6f7;
+    border: 0.5px solid rgb(235, 235, 235);
+    margin-top: 0;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  #user-email-phone {
+    font-size: 15px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #user-password {
+    font-size: 15px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+  }
+
+  #button-login {
+    background: linear-gradient(#0371d8, #0371d8);
+    background-color: #0159ac;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px #0988ff;
+    color: white;
+    margin-top: 5%;
+    font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 126%;
+    padding: 7px 20px;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #esqueceu-conta {
+    display: none;
+  }
+
+  #esqueceu-conta-mobile {
+    color: rgb(3, 97, 185);
+    text-decoration-line: none;
+    font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration-line: none;
+  }
+
+  #button-new-account {
+    background: linear-gradient(#15a508, #15a508);
+    background-color: #108006;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px #1db110;
+    color: white;
+    margin-top: 5%;
+    font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    width: 40%;
+    padding: 7px 10px;
+    position: relative;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  #ou {
+    font-size: 75%;
+    color: rgb(107, 107, 107);
+    text-decoration-line: none;
+    font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+    font-size: 9px;
+  }
+  
+  #line {
+    border: 0,01px solid rgb(107, 107, 107);
+    width: 40%;
+    height: 0px;
+  }
+
+  #line-ou-line {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+}

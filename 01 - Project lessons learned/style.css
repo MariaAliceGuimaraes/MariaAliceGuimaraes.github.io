@@ -70,7 +70,7 @@ body {
   
  #rodape {
   position: fixed;
-  top: 520px;
+  top: 90%;
   clear: both;
   background-color: rgb(17 , 17 , 17);
   width: 100%;
